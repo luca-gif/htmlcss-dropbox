@@ -2,11 +2,14 @@
 
 header{
   background-color: white;
-  line-height: 100px;
+  line-height: 60px;
   padding: 0 10px;
   z-index: 999;
 }
 
+header img{
+  vertical-align: middle;
+}
 
 header ul li{
   display: inline-block;
@@ -15,19 +18,20 @@ header ul li{
 
 header .list-sx, .list-dx{
   width: calc(50% - 93px);
-  padding: 0 50px;
+  padding: 0 30px;
 }
 
 header .list-dx{
   text-align: right;
 }
 
+
 /* JUMBOTRON */
 
 .jumbotron{
   background-color: #b4d0e7;
   padding: 80px;
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
 .jumbotron h1{
@@ -40,6 +44,10 @@ header .list-dx{
 
 .jumbotron .box-sx{
   padding:30px 20px 0 0;
+}
+
+.jumbotron .box-sx .btn-start{
+  margin: 20px 0;
 }
 
 
