@@ -1,0 +1,50 @@
+.container{
+  width: 80%;
+  max-height: 1180px;
+  margin: 0 auto;
+}
+
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.float-left{
+  float: left;
+}
+
+.text-center{
+  text-align: center;
+}
+
+/* DEBUG  */
+
+.debug{
+  background-color: rgba(255, 0, 0, .3);
+  border: 1px solid black;
+}
+
+.h100{
+  min-height: 100px;
+}
+
+.h300{
+  min-height: 300px;
+}
+
+.h500{
+  min-height: 500px;
+}
+
+.w40{
+  width: 40%;
+}
+
+.w50{
+  width: 50%;
+}
+
+.w60{
+  width: 60%;
+}
