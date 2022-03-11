@@ -32,6 +32,9 @@ header .list-dx{
   background-color: #b4d0e7;
   padding: 80px;
   margin-top: 60px;
+  margin-bottom: 100px;
+  border: 1px solid black;
+  height: 700px;
 }
 
 .jumbotron h1{
@@ -43,11 +46,16 @@ header .list-dx{
 }
 
 .jumbotron .box-sx{
-  padding:30px 20px 0 0;
+  padding:50px 20px 0 0;
 }
 
 .jumbotron .box-sx .btn-start{
   margin: 20px 0;
+}
+
+.jumbotron .box-dx img{
+  width: 100%;
+  padding-top: 50px;
 }
 
 
