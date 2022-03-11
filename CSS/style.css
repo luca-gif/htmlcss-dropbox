@@ -1,21 +1,48 @@
 /* HEADER */
 
 header{
+  background-color: white;
+  line-height: 100px;
+  padding: 0 10px;
   z-index: 999;
 }
+
 
 header ul li{
   display: inline-block;
   padding: 0 20px;
-  /* Chiedere flex logo */
+}
+
+header .list-sx, .list-dx{
+  width: calc(50% - 93px);
+  padding: 0 50px;
+}
+
+header .list-dx{
+  text-align: right;
 }
 
 /* JUMBOTRON */
 
 .jumbotron{
+  background-color: #b4d0e7;
   padding: 80px;
   margin-top: 100px;
 }
+
+.jumbotron h1{
+  font-size: 5em;
+}
+
+.jumbotron#jumbo-title{
+  margin-bottom: 20px;
+}
+
+.jumbotron .box-sx{
+  padding:30px 20px 0 0;
+}
+
+
 
 /* MAIN */
 

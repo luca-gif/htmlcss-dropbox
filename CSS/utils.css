@@ -21,9 +21,11 @@
 }
 
 .btn{
+  display: inline;
   background-color: #0061ff;
   color: white;
-  padding: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
 }
 
 .text-center{
@@ -35,6 +37,11 @@
 .debug{
   background-color: rgba(255, 0, 0, .3);
   border: 1px solid black;
+}
+
+
+.h60{
+  min-height: 60px;
 }
 
 .h100{
