@@ -14,6 +14,12 @@
   float: left;
 }
 
+.fixed{
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
 .text-center{
   text-align: center;
 }
@@ -37,6 +43,10 @@
   min-height: 500px;
 }
 
+.h800{
+  min-height: 800px;
+}
+
 .w40{
   width: 40%;
 }
@@ -47,4 +57,8 @@
 
 .w60{
   width: 60%;
+}
+
+.w100{
+  width: 100%;
 }
