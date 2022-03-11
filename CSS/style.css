@@ -13,4 +13,10 @@ header{
 
 /* MAIN */
 
+main .col{
+  width: calc(100%/3);
+}
+
+
+
 /* FOOTER */
