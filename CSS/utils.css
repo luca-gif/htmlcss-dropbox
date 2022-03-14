@@ -36,6 +36,10 @@
   border: 1px solid lightgray;
 }
 
+.title{
+  font-size: 2.3rem;
+}
+
 /* DEBUG  */
 
 .debug{
@@ -45,10 +49,6 @@
 
 .piano{
   margin: 30px 0;
-}
-
-.col{
-  border: 1px solid lightgrey;
 }
 
 /* ALTEZZE */
@@ -61,6 +61,7 @@
 .h100{
   min-height: 100px;
 }
+
 
 .h300{
   min-height: 300px;

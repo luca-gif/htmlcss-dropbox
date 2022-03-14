@@ -86,7 +86,7 @@ main .radio label{
   padding: 10px 0;
 }
 
-p a{
+.blue{
   text-decoration:underline;
   color: #0363ff;
 }
@@ -176,6 +176,19 @@ main h5{
   padding: 20px 0;
 }
 
+/* DESIGN SECTION */
+
+.design-sx, .design-cc, .design-dx{
+  width: calc(100% / 3);
+  margin-top: 40px;
+}
+.design-sx .design-1{
+  width: 50%;
+}
+
+.design-dx .design-1{
+  width: 50%;
+}
 
 
 /* FOOTER */
