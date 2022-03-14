@@ -56,7 +56,10 @@ header .list-dx{
   width: 100%;
   padding-top: 50px;
 }
-
+.jumbotron .arrow-down{
+  padding-top: 30px;
+  font-size: 40px;
+}
 
 
 /* MAIN */
@@ -99,6 +102,28 @@ p.condizioni{
 main .col .btn a{
   padding: 50px;
   color: white;
+}
+
+main h3{
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+main h5{
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+/* INIZIO ENTERPRISE */
+
+.box-sx{
+  width: 70%;
+  float: left;
+}
+
+.box-dx{
+  width: 30%;
+  float: left;
 }
 
 
