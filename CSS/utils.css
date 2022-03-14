@@ -14,6 +14,10 @@
   float: left;
 }
 
+.float-right{
+  float: right;
+}
+
 .fixed{
   position: fixed;
   top: 0;

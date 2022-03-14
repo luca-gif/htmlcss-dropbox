@@ -112,7 +112,7 @@ main h3{
   font-size: 1.3rem;
 }
 
-main h5{
+main .col h5{
   font-weight: 700;
   font-size: 1rem;
 }
@@ -178,17 +178,91 @@ main h5{
 
 /* DESIGN SECTION */
 
-.design-sx, .design-cc, .design-dx{
-  width: calc(100% / 3);
+.design-center{
+  width: calc(100% - 50vw);
   margin-top: 40px;
-}
-.design-sx .design-1{
-  width: 50%;
+
 }
 
-.design-dx .design-1{
-  width: 50%;
+.design-sx, .design-dx{
+ width: 25vw;
+ height: 25vh;
+ margin-top: 40px;
 }
 
+.block{
+  width: 50%;
+  height: 50%;
+}
+
+/* DROPBOX AZIENDA */
+
+.azienda{
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color: #b4d0e7;
+  padding: 100px 0;
+}
+
+.azienda-btn a {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  position: absolute;
+  top: 105px;
+  right: 200px;  
+  padding: 5px 35px;
+}
+
+.azienda-text{
+  width: 40%;
+}
+
+/* DOMANDE FREQUENTI */
+
+main .faq{
+  margin: 40px 0;
+}
+
+main .faq .domande{
+  margin: 0 auto;
+  border-bottom: 1px solid lightgray;
+  padding: 10px 0;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+main .faq h2{
+  padding: 20px 0;
+  border-bottom: 1px solid lightgray;
+}
+
+.faq-i{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
 
 /* FOOTER */
+
+footer{
+  background-color: black;
+  color: white;
+  padding: 80px 120px;
+}
+
+footer .footer-title{
+  padding-bottom: 20px;
+}
+
+footer ul li a{
+  color: white;
+  font-size: 14px;
+  line-height: 200%;
+}
+
+footer .foot-col{
+  width: calc(100% / 5);
+  float: left;
+}
