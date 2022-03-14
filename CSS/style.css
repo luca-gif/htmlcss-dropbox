@@ -63,12 +63,43 @@ header .list-dx{
 
 main .col{
   width: calc(100%/3);
+  padding: 40px;
 }
 
-.radio{
-  padding-top: 20px;
+main .radio{
+  padding-top: 30px;
+  padding-right: 10px;
 }
 
+main .radio label{
+  padding-right: 20px;
+}
+
+.col .col-top h2,h5,p,.btn{
+  padding: 10px 0;
+}
+
+p a{
+  text-decoration:underline;
+  color: #0363ff;
+}
+
+.col .col-down{
+  margin-top: 20px;
+}
+
+.col ul li{
+  padding: 10px 0;
+}
+
+p.condizioni{
+  color: grey;
+}
+
+main .col .btn a{
+  padding: 50px;
+  color: white;
+}
 
 
 /* FOOTER */
