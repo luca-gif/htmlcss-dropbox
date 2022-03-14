@@ -39,6 +39,12 @@
   border: 1px solid black;
 }
 
+.piano{
+  margin: 30px 0;
+}
+
+/* ALTEZZE */
+
 
 .h60{
   min-height: 60px;
@@ -59,6 +65,8 @@
 .h800{
   min-height: 800px;
 }
+
+/* LARGHEZZE */
 
 .w40{
   width: 40%;
