@@ -69,6 +69,10 @@ main .col{
   padding: 40px;
 }
 
+main .col-title{
+  padding: 10px;
+}
+
 main .radio{
   padding-top: 30px;
   padding-right: 10px;
@@ -99,9 +103,8 @@ p.condizioni{
   color: grey;
 }
 
-main .col .btn a{
-  padding: 50px;
-  color: white;
+main .col .btn{
+  padding: 5px 60px;
 }
 
 main h3{
@@ -114,7 +117,20 @@ main h5{
   font-size: 1rem;
 }
 
+.col-down i{
+  color: #0363ff;
+}
+
 /* INIZIO ENTERPRISE */
+
+.banner{
+  padding: 20px;
+  margin-bottom: 80px;
+}
+
+.banner h4{
+  padding: 20px 0;
+}
 
 .box-sx{
   width: 70%;
@@ -124,7 +140,33 @@ main h5{
 .box-dx{
   width: 30%;
   float: left;
+  padding: 0 20px;
 }
+
+/* FOTO + BOX DX */
+
+.img-partner img{
+  width: 100%;
+}
+
+.partner-drop{
+  padding: 40px;
+}
+
+.partner-drop p{
+  padding: 40px 0;
+  line-height: 180%;
+}
+
+
+.partner-drop .btn{
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  padding: 10px 20px;
+}
+
+
 
 
 /* FOOTER */
