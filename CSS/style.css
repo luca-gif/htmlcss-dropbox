@@ -33,12 +33,12 @@ header .list-dx{
   padding: 80px;
   margin-top: 60px;
   margin-bottom: 100px;
-  height: 850px;
+  height: 700px;
 }
 
-.content{
+/* .content{
   margin: 153px auto -83px auto;
-}
+} */
 
 
 .jumbotron h1{
@@ -93,10 +93,6 @@ main .radio{
 
 main .radio label{
   padding-right: 20px;
-}
-
-.business-middle{
-  
 }
 
 .col .col-top h2,h5,p,.btn{
