@@ -65,8 +65,16 @@ header .list-dx{
 /* MAIN */
 
 main .col{
-  width: calc(100%/3);
-  padding: 40px;
+  width: calc(100%/3 - 40px);
+  padding: 32px;
+}
+
+main .col.col-center{
+  margin: 0 60px;
+}
+
+main .col.col-left{
+  height: 900px;
 }
 
 main .col-title{
@@ -104,7 +112,7 @@ p.condizioni{
 }
 
 main .col .btn{
-  padding: 5px 60px;
+  padding: 5px 48px;
 }
 
 main h3{
@@ -115,6 +123,11 @@ main h3{
 main .col h5{
   font-weight: 700;
   font-size: 1rem;
+}
+
+main .col h4{
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
 
 .col-down i{
@@ -179,21 +192,56 @@ main .col h5{
 /* DESIGN SECTION */
 
 .design-center{
-  width: calc(100% - 50vw);
+  width: calc(100% - 60vw);
   margin-top: 40px;
-
+  background-color: #f5f5f5;
+  height: 30vw;
 }
 
-.design-sx, .design-dx{
- width: 25vw;
- height: 25vh;
+.design-lateral{
+ width: 30vw;
+ height: 30vw;
  margin-top: 40px;
 }
 
 .block{
-  width: 50%;
-  height: 50%;
+  width: 15vw;
+  height: 15vw;
+  line-height: 15vw;  
 }
+
+.block img{
+  width: 50%;
+  vertical-align: middle;
+}
+
+.block.block-1{
+  background-color: #a2d39b;
+}
+
+.block.block-2{
+  background-color: #61082b;
+}
+.block.block-3{
+  background-color: #0093ce;
+}
+.block.block-4{
+  background-color: #ff1c1c;
+}
+.block.block-5{
+  background-color: #d5001f;
+}
+.block.block-6{
+  background-color: #b4d0e7;
+}
+.block.block-7{
+  background-color: #0d2481;
+}
+.block.block-8{
+  background-color: #ffd830;
+}
+
+
 
 /* DROPBOX AZIENDA */
 
