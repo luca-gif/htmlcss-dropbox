@@ -209,6 +209,8 @@ main .col h4{
 
 .logo-design img{
   width: 150px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #e2e2e4;
 }
 
 .design-text{
@@ -334,4 +336,13 @@ footer ul li a{
 footer .foot-col{
   width: calc(100% / 5);
   float: left;
+}
+
+footer .footer-down{
+  margin-top: 80px;
+  padding-top: 40px;
+  width: 100px;
+  font-size: 12px;
+  border-top: 2px solid;
+  color: #616161;
 }
