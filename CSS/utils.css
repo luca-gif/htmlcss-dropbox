@@ -24,14 +24,6 @@
   left: 0;
 }
 
-.btn{
-  display: inline;
-  background-color: #0061ff;
-  color: white;
-  padding: 5px 10px;
-  font-size: 14px;
-}
-
 .text-center{
   text-align: center;
 }
@@ -42,6 +34,20 @@
 
 .title{
   font-size: 2.3rem;
+}
+
+/* BTN */
+
+.btn{
+  display: inline;
+  background-color: #0061ff;
+  color: white;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.btn:hover{
+  opacity: .8;
 }
 
 /* DEBUG  */
