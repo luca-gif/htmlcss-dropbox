@@ -36,10 +36,6 @@ header .list-dx{
   height: 700px;
 }
 
-/* .content{
-  margin: 153px auto -83px auto;
-} */
-
 
 .jumbotron h1{
   font-size: 5em;
@@ -176,7 +172,6 @@ main .col h4{
   line-height: 180%;
 }
 
-
 .partner-drop .btn{
   background-color: white;
   border: 1px solid black;
@@ -275,9 +270,6 @@ main .col h4{
 /* DROPBOX AZIENDA */
 
 .azienda{
-  position: relative;
-  top: 0;
-  left: 0;
   background-color: #b4d0e7;
   padding: 100px 0;
 }
@@ -285,10 +277,8 @@ main .col h4{
 .azienda-btn a {
   background-color: rgb(255, 255, 255);
   color: black;
-  position: absolute;
-  top: 105px;
-  right: 200px;  
-  padding: 5px 35px;
+  float: right; 
+  padding: 7px 35px;
 }
 
 .azienda-text{
