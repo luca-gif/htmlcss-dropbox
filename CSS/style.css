@@ -16,6 +16,11 @@ header ul li{
   padding: 0 20px;
 }
 
+header ul li:hover{
+  border-bottom: 2px solid lightgray;
+  margin-bottom: 5px;
+}
+
 header .list-sx, .list-dx{
   width: calc(50% - 93px);
   padding: 0 30px;
@@ -199,6 +204,7 @@ main .col h4{
   position: relative;
   top: 0;
   left: 0;
+  overflow: auto;
 }
 
 .logo-design{
@@ -238,6 +244,10 @@ main .col h4{
   width: 50%;
   vertical-align: middle;
   filter: invert(1);
+}
+
+.active{
+  
 }
 
 .block.block-1{
